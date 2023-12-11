@@ -9,6 +9,9 @@ public class    Principal {//INICIO CLASE
           for(int i = 0; i<vector.length; i++){
             vector[i] = (int)(Math.random() * 6 + 1);
           }
-        
+         System.out.println("COMMIT 3: MIERCOLES");
+         for(int i= 0; i<vector.length; i++) {
+            System.out.print(vector[i] + "  ");
+         }
 	   
     }//FINAL MAIN
